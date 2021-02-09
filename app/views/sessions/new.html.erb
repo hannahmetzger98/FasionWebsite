@@ -1,0 +1,19 @@
+<% provide(:title, "Log in") %>
+<h1 style = "text-align: center">Log in</h1>
+<br />
+<div class="row">
+    <div class="col-md-6 col-md-offset-3" style = "color: #3d1e1f">
+	    <%= form_with(url:  login_path, scope: :session, local: true) do |f| %>
+	        <%= f.label :email %>
+	        <%= f.email_field :email, class: 'form-control' %>
+
+	        <%= f.label :password %>
+            <%= f.password_field :password, class: 'form-control' %>
+			<br />
+	        <%= f.submit "Log in", class: "btn btn-primary" %>
+        <% end %>
+        <br />
+	    <p class = "new_user" style = "text-align: center; color: #3d1e1f">New user? <%= link_to "Sign up now!", signup_path %></p> 
+    </div>
+</div>
+

@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1 style="text-align: center">Items Made</h1>
+<br />
+
+<table class = "items_made_table">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <!--<th>User</th>-->
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @mades.each do |made| %>
+      <tr>
+        <td><%= made.content %></td>
+        <!--<td><--%= made.user_id %></td>-->
+        <td><%= image_tag made.image, length:"50px", width:"50px" if made.image.attached? %></td>
+        <!--<td><--%= link_to 'Show', made %></td>-->
+        <!--<td><--%= link_to 'Edit', edit_made_path(made) %></td>-->
+        <!--<td><--%= link_to 'Destroy', made, method: :delete, data: { confirm: 'Are you sure?' } %></td>-->
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<!--<--%= link_to 'New Made', new_made_path %>-->

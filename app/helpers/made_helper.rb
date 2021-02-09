@@ -1,0 +1,2 @@
+module MadeHelper
+end

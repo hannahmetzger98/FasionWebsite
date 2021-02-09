@@ -1,0 +1,248 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+    font-family: "Georgia", serif;
+    background-color: #fbddd4;
+    padding: 0;
+    margin: 0;
+    color: #3d1e1f;
+
+}
+body, p, ol, ul, td {
+    font-family: "Georgia", serif;
+
+}
+
+h1{
+    color: #3d1e1f;
+}
+header{
+    margin: 0;
+    padding: 0;
+}
+
+#first_element{
+    padding-left: 36%;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #3d1e1f;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #3d1e1f;
+    font-weight: bold;
+}
+
+.dropdown{
+    background-color: #fedda1;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: #fedda1;
+    color: #3d1e1f;
+}
+.dropdown-menu {
+    background-color: #fedda1;
+    color: #3d1e1f;
+}
+.dropdown-menu > li > a {
+    background-color: #fedda1;
+    color: #3d1e1f;
+}
+.dropdown-menu > li > a:hover {
+    background-color: #fedda1;
+    color: #3d1e1f;
+    font-weight:bold;
+}
+.dropdown-menu .divider{
+    background-color: #3d1e1f;
+}
+
+
+#home_title{
+    text-align: center;
+}
+
+.welcome_text{
+    border: 2px solid #f5cdb4;
+    color: #3d1e1f;
+    text-align: center;
+    width: 70%;
+    margin-left: 18rem;
+    font-family: "Georgia";
+    padding-top: 1rem;
+}
+
+
+#fist_card{
+    margin-left: 12rem;
+}
+.img_and_text{
+    width: 22%;
+    margin-right: 8rem;
+    float: left;
+    margin-bottom: 15rem;
+}
+.home_img{
+    width: 100%;
+    height: auto;
+}
+.home_img img{
+    width: 100%;
+}
+.text{
+    text-align: center;
+    background-color: #f5cdb4; 
+}
+.text p{
+    padding-top: 0.5rem;
+    border-top: 1px solid #fbddd4;
+}
+.text_updated{
+    padding-bottom: 0.5rem;
+}
+
+
+.center {
+text-align: center;
+}
+.center h1 {
+margin-bottom: 10px;
+}
+.title {color: yellow;}
+
+footer{
+    border-top: 2px solid grey;
+    color: #777;
+    margin-top: 25px;
+    text-align: center;
+    background-color: #3d1e1f;
+}
+
+Header {
+    color:white;
+}
+
+footer sample {
+    text-align: center;
+    color: #f5cdb4;
+}
+
+.gravatar{float: left;}  
+
+
+// index view styling
+.users{
+    list-stye:none;
+    margin: 5px;
+    
+}
+.users li{
+    padding:30px;
+    border-bottom: 1px solid red;
+    
+}
+#faq_header{
+    text-align: center;
+}
+.card{
+    color: #3d1e1f;
+    // margin-left: 30%;
+}
+.btn-link, .btn:focus, .btn-linl:active {
+    color: #3d1e1f;
+    font-size: 2rem;
+    text-decoration: none;
+    border-bottom: 3px solid #fedda1;
+    text-align: center;
+}
+.btn-link:hover {
+    color: #3d1e1f;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 5px solid #fedda1;
+}
+.card-body{
+    font-size: 1.5rem;
+    width: 100%;
+    margin-left: 4rem;
+
+}
+.btn-block{
+    width: auto;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:focus{
+    background-color: #fedda1;
+    border: 2px solid #f5cdb4;
+    color: #3d1e1f;
+    font-size: 1.5rem;
+}
+.btn-primary:hover{
+    background-color: #fedda1;
+    border: 3px solid #f5cdb4;
+    font-weight: bold;
+    color: #3d1e1f;
+    font-size: 1.5rem;
+}
+
+.new_user{
+    font-size: 1.5rem;
+    color: #3d1e1f;
+}
+.new_user a, .new_user a:active, .new_user a:focus, .new_user a:visited{
+    color: #3d1e1f;
+    width: 20%;
+    
+}
+.new_user a:hover{
+    color: #3d1e1f;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #fbddd4;
+}
+.row label{
+    margin: 5px 0;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#request_item{
+    text-align: center;
+}
+#request_item_form{
+    color: #3d1e1f;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#request_item_exit a{
+    color: #3d1e1f;
+    text-decoration: none;
+    background-color: #fbddd4;
+    font-size: 1.5rem;
+}
+#request_item_exit a:hover{
+    color: #3d1e1f;
+    text-decoration: none;
+    background-color: #fbddd4;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+    
+    
+#request_item_form{
+    border: 3px solid #f5cdb4; 
+    width: 25%;
+    padding-left: 2rem;
+    padding-top: 1rem;
+}
+
+.items_requested_table{
+    width: 100%;
+    margin-bottom: 10rem;
+}
+.items_made_table{
+    width: 70%;
+    margin-left: 15rem;
+    color: #3d1e1f;
+}

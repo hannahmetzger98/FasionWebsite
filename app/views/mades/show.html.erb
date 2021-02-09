@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @made.content %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @made.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_made_path(@made) %> |
+<%= link_to 'Back', mades_path %>
